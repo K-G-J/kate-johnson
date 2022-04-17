@@ -1,8 +1,17 @@
 import './App.css'
 import '@material-tailwind/react/tailwind.css'
 import Nav from './components/Nav'
+import { useState } from 'react'
+import Portfolio from './components/Portfolio'
+import Resume from './components/Resume'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
+  const [portfolio, showPortfolio] = useState(false)
+  const [resume, showResume] = useState(false)
+  const [contact, showContact] = useState(false)
+  
   return (
     <>
       <Nav />
@@ -11,7 +20,7 @@ function App() {
           <div className=" h-32 overflow-hidden">
             <img
               className="w-full"
-              src={require('./assets/images/banner2.jpeg')}
+              src={require('./assets/images/banner.jpg')}
               alt="banner"
             />
           </div>
@@ -24,12 +33,12 @@ function App() {
           </div>
           <div className=" ">
             <div className="text-center px-14">
-              <h2 className="text-gray-800 text-3xl font-bold">Mohit Dhiman</h2>
+              <h2 className="text-gray-800 text-3xl font-bold">Kate Johnson</h2>
               <p className="text-gray-400 mt-2">@k-g-j</p>
               <p className="mt-2 text-gray-600 font-bold">
-                Web 3 and Blockchain Developer
+                Web3 and Blockchain Developer
               </p>
-              <p>write my bio here</p>
+              <p className="mt-2 text-gray-600">Hi, my name is Kate and I have a passion for 1's and 0's. I love coding and after recieving my master's degree studying metaverse technology I became fascinated by Web3 development. I hope you enjoy looking through some of my blockchain applications. My smart contracts are available on my GitHub page.  Cheers to Web3!</p>
             </div>
             <hr className="mt-6" />
             <div className="flex  bg-gray-50 ">
@@ -44,6 +53,10 @@ function App() {
           </div>
         </div>
       </div>
+      <Portfolio />
+      <Resume />
+      <Contact />
+      <Footer />
     </>
   )
 }
