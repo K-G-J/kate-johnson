@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import emailjs from '@emailjs/browser'
 import { validateEmail } from '../utils/helpers'
 
@@ -6,6 +6,10 @@ export default function Contact() {
   const [form, setForm] = useState({ name: '', email: '', message: '' })
   const [errorMessage, setErrorMessage] = useState('')
   const [successMessage, setSuccessMessage] = useState(false)
+
+  useEffect(() => {
+    document.title = 'Contact'
+  }, [])
 
   function handleChange(e) {
     if (e.target.name === 'email') {
@@ -86,13 +90,10 @@ export default function Contact() {
               role="alert"
             >
               <div className="flex">
-                <div className="py-1">
-                </div>
+                <div className="py-1"></div>
                 <div>
                   <p className="font-bold">Email successfully sent!&nbsp;</p>
-                  <p className="text-sm">
-                    I will get back to you soon!
-                  </p>
+                  <p className="text-sm">I will get back to you soon!</p>
                 </div>
               </div>
             </div>
@@ -139,6 +140,7 @@ export default function Contact() {
           <button
             onClick={(e) => handleSubmit(e)}
             className="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg text-white text-lg"
+            disabled={successMessage}
           >
             Submit
           </button>

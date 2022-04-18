@@ -1,7 +1,12 @@
-import React from 'react'
+import { useEffect } from 'react'
 import { portfolio } from '../portfolio'
 
 export default function Portfolio() {
+  
+  useEffect(() => {
+    document.title = 'Portfolio'
+  }, [])
+
   const handleClick = (video) => {
     console.log(video)
     window.open(video, '_blank')

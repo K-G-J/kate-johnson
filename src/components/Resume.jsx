@@ -1,7 +1,11 @@
-import React from 'react'
+import { useEffect } from 'react'
 import resume from '../assets/resume.pdf'
 
 export default function Resume() {
+  useEffect(() => {
+    document.title = 'Resume'
+  }, [])
+
   return (
     <div>
       <section className=" text-gray-200 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600">
@@ -18,7 +22,9 @@ export default function Resume() {
               development for the Ethereum ecosystem.
             </p>
             <a href={resume} download="resume" target="_blank">
-              <button className="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg mt-6">FULL RESUME</button>
+              <button className="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg mt-6">
+                FULL RESUME
+              </button>
             </a>
           </div>
           {/* Skills  */}

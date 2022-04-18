@@ -1,6 +1,9 @@
-import React from 'react'
+import { useEffect } from 'react'
 
 export default function About() {
+  useEffect(() => {
+    document.title = 'About Me'
+  }, []);
   return (
     <div className="h-screen bg-gradient-to-r from-green-300 via-blue-500 to-purple-600  dark:bg-gray-800   flex flex-wrap items-center  justify-center  ">
       <div className="container lg:w-2/6 xl:w-2/7 sm:w-full md:w-2/3    bg-white  shadow-lg    transform   duration-200 easy-in-out">
