@@ -8,11 +8,10 @@ export default function Contact() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-4 flex items-center justify-center">
         <div className="lg:w-3/6 lg:pr-0 pr-0">
           <h1 className="font-medium text-5xl text-white pl-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Get in touch! 👋
           </h1>
-          <p className="leading-relaxed mt-4 text-white">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          <p className="leading-relaxed mt-4 text-white pr-10 text-center">
+            Fill out the form and I will get back to you as soon as I am able.
           </p>
         </div>
         <div className="lg:w-3/6 xl:w-2/5 md:w-full bg-gray-50 p-8 flex flex-col lg:ml-auto w-full mt-10 lg:mt-0 rounded-md">
@@ -61,7 +60,7 @@ export default function Contact() {
             >
             </textarea>
           </div>
-          <button className="text-white bg-indigo-500 rounded-md border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 text-lg">
+          <button className="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg text-white text-lg">
             Submit
           </button>
         </div>

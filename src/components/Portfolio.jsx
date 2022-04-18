@@ -15,7 +15,7 @@ export default function Portfolio() {
               <div className="h-full rounded-xl shadow-cla-blue bg-gradient-to-r from-indigo-50 to-blue-50 overflow-hidden">
                 <img
                   className="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
-                  src={require(`../assets/images/${item.image}.jpeg`)}
+                  src={require(`../assets/images/${item.image}.jpg`)}
                   alt="blog"
                 />
                 <div className="p-6">
