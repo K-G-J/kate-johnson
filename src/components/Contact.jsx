@@ -110,8 +110,9 @@ export default function Contact() {
               type="text"
               id="name"
               name="name"
-              defaultValue={form.name}
+              value={form.name}
               className="w-full bg-white rounded-md border border-gray-300 focus:border-indigo-600 focus:ring-2 focus:ring-indigo-200 text-sm outline-none text-gray-900 py-1 px-3 leading-8 transition-colors duration-150 ease-in-out"
+              onChange={(e) => setForm({...form, name: e.target.value})}
               onBlur={handleChange}
             />
           </div>
@@ -123,8 +124,9 @@ export default function Contact() {
               type="email"
               id="email"
               name="email"
-              defaultValue={form.email}
+              value={form.email}
               className="w-full bg-white rounded-md border border-gray-300 focus:border-indigo-600 focus:ring-2 focus:ring-indigo-200 text-sm outline-none text-gray-900 py-1 px-3 leading-8 transition-colors duration-150 ease-in-out"
+              onChange={(e) => setForm({...form, email: e.target.value})}
               onBlur={handleChange}
             />
           </div>
@@ -135,9 +137,10 @@ export default function Contact() {
             <textarea
               id="message"
               name="message"
-              defaultValue={form.message}
+              value={form.message}
               rows="4"
               className="w-full bg-white rounded-md border border-gray-300 focus:border-indigo-600 focus:ring-2 focus:ring-indigo-200 text-sm outline-none text-gray-900 py-1 px-3 leading-8 transition-colors duration-150 ease-in-out"
+              onChange={(e) => setForm({...form, message: e.target.value})}
               onBlur={handleChange}
             ></textarea>
           </div>
