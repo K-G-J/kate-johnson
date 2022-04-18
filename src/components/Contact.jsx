@@ -42,9 +42,13 @@ export default function Contact() {
       )
       if (result.text === 'OK') {
         setSuccessMessage(true)
+        setTimeout(() => {
+          setSuccessMessage(false)
+        }, 3000)
         setForm({ name: '', email: '', message: '' })
       } else {
         console.log(result.text)
+        setErrorMessage('Something went wrong. Please try again.')
       }
     } catch (err) {
       console.log(err)
