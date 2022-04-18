@@ -46,7 +46,7 @@ export default function Resume() {
                   programming.
                   <br />
                   Web3 development for EVM compatible chains using Solidity,
-                  ethers.js, and web3.js
+                  ethers.js, web3.js, and Moralis.io
                 </p>
                 <br />
                 <ul className="list-disc">
@@ -70,7 +70,7 @@ export default function Resume() {
                 </ul>
               </div>
             </div>
-            {/* Skills */}
+            {/* Experience */}
             <div className="xl:w-1/3 md:w-1/2 p-4">
               <div className="border border-gray-300 p-6 rounded-lg">
                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
