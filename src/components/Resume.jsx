@@ -61,7 +61,7 @@ export default function Resume() {
                     and Smart Contract programming
                   </li>
                   <li>
-                    Proficient in JavaScript, Java, the MERN Stack, SQL, Mongo
+                    Proficient in JavaScript, Ruby, Java, Git, the MERN Stack, SQL, Mongo
                     DB, CSS, HTML, C#, AWS, PHP, and Swift
                   </li>
                   <li>
