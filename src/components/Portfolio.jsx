@@ -19,6 +19,11 @@ export default function Portfolio() {
                   alt="blog"
                 />
                 <div className="p-6">
+                  <a href={item.github} target="_blank">
+                    <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                      GitHub
+                    </h2>
+                  </a>
                   <a href={item.link} target="_blank">
                     <h1 className="title-font text-lg font-medium text-gray-600 mb-3">
                       {item.name}

@@ -1,4 +1,5 @@
 import React from 'react'
+import resume from '../assets/resume.pdf'
 
 export default function Resume() {
   return (
@@ -7,151 +8,166 @@ export default function Resume() {
         <div className="max-w-6xl mx-auto px-5 py-24 ">
           <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
             <h1 className=" title-font mb-2 text-4xl font-extrabold leading-10 tracking-tight text-left sm:text-5xl sm:leading-none md:text-6xl">
-              DERNIER COURS
+              Who am I?
             </h1>
             <p className="lg:w-1/2 w-full leading-relaxed text-base">
-              Enseigner c'est apprendre deux fois. J'aime partager mes
-              connaissances et mes découvertses.
+              I am a highly self-motivated and hard-working individual who also
+              enjoys teamwork and collaboration. I am an extended reality (XR)
+              developer and well-versed in the full stack of multiple web and
+              mobile programming languages. I specialize in blockchain
+              development for the Ethereum ecosystem.
             </p>
+            <a href={resume} download="resume" target="_blank">
+              <button className="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg mt-6">FULL RESUME</button>
+            </a>
           </div>
+          {/* Skills  */}
           <div className="flex flex-wrap -m-4">
             <div className="xl:w-1/3 md:w-1/2 p-4">
               <div className="border border-gray-300 p-6 rounded-lg">
                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
                   <svg
-                    className=" fill-current h-6 w-6"
                     xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 384 512"
+                    className="h-5 w-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
                   >
-                    <path d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z" />
+                    <path
+                      fillRule="evenodd"
+                      d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z"
+                      clipRule="evenodd"
+                    />
                   </svg>
                 </div>
-                <h2 className="text-lg  font-medium title-font mb-2">
-                  L'essentiel du HTML5{' '}
-                </h2>
+                <h2 className="text-lg  font-medium title-font mb-2">Skills</h2>
                 <p className="leading-relaxed text-base">
-                  Fingerstache flexitarian street art 8-bit waist co, subway
-                  tile poke farm.
+                  Full stack web development, mobile application development,
+                  augmented reality, virtual reality, game development, and
+                  programming.
+                  <br />
+                  Web3 development for EVM compatible chains using Solidity,
+                  ethers.js, and web3.js
                 </p>
-
-                <div className="text-center mt-2 leading-none flex justify-between w-full">
-                  <span className=" mr-3 inline-flex items-center leading-none text-sm  py-1 ">
-                    <svg
-                      className=" fill-current w-4 h-4 mr-2 text-blue-500"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 512 512"
-                    >
-                      <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z" />
-                    </svg>
-                    40 min
-                  </span>
-                  <span className=" inline-flex items-center leading-none text-sm">
-                    <svg
-                      width="22"
-                      height="22"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <g fill="none" fillRule="evenodd">
-                        <path
-                          fill="#D8D8D8"
-                          d="M9.2 6.583v11.08h3.5V6.583zm6.4 11.084h3.5V3h-3.5z"
-                        />
-                        <path fill="#667EEA" d="M2.6 17.667h3.5v-7.334H2.6z" />
-                      </g>
-                    </svg>
-                    Débutant
-                  </span>
-                </div>
+                <br />
+                <ul className="list-disc">
+                  <li>
+                    Experienced in Soldity and Javascript for Web3 development
+                    and Smart Contract programming
+                  </li>
+                  <li>
+                    Proficient in JavaScript, Java, the MERN Stack, SQL, Mongo
+                    DB, CSS, HTML, C#, AWS, PHP, and Swift
+                  </li>
+                  <li>
+                    Heavily experienced and trained in SparkAR, Lens Studio,
+                    Unity, Unreal, Zapworks, Blender, Adobe Creative Suite,
+                    WordPress, Canva, UX and UI design
+                  </li>
+                  <li>
+                    Experienced using Microsoft Windows, G Suite, iOS and macOS
+                    operating systems
+                  </li>
+                </ul>
               </div>
             </div>
-
-            <div className="xl:w-1/3 md:w-1/2 p-4">
-              <div className="border border-gray-300 p-6 rounded-lg">
-                <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4 italic">
-                  <span className="font-bold text-sm ">Php</span>
-                </div>
-                <h2 className="text-lg  font-medium title-font mb-2">
-                  Guide complet des dates en PHP
-                </h2>
-                <p className="leading-relaxed text-base">
-                  Fingerstache flexitarian street art 8-bit waist co, subway
-                  tile poke farm.
-                </p>
-
-                <div className="text-center mt-2 leading-none flex justify-between w-full">
-                  <span className=" mr-3 inline-flex items-center leading-none text-sm  py-1 ">
-                    <svg
-                      className=" fill-current w-4 h-4 mr-2 text-blue-500"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 512 512"
-                    >
-                      <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z" />
-                    </svg>
-                    40 min
-                  </span>
-                  <span className=" inline-flex items-center leading-none text-sm">
-                    <svg
-                      width="22"
-                      height="22"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <g fill="none" fillRule="evenodd">
-                        <path
-                          fill="#D8D8D8"
-                          d="M9.2 6.583v11.08h3.5V6.583zm6.4 11.084h3.5V3h-3.5z"
-                        />
-                        <path fill="#667EEA" d="M2.6 17.667h3.5v-7.334H2.6z" />
-                      </g>
-                    </svg>
-                    Débutant
-                  </span>
-                </div>
-              </div>
-            </div>
+            {/* Skills */}
             <div className="xl:w-1/3 md:w-1/2 p-4">
               <div className="border border-gray-300 p-6 rounded-lg">
                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
                   <svg
-                    className=" fill-current h-6 w-6 "
-                    viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg"
+                    className="h-5 w-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
                   >
-                    <title>CSS3 icon</title>
-                    <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z" />
+                    <path
+                      fillRule="evenodd"
+                      d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z"
+                      clipRule="evenodd"
+                    />
+                    <path d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z" />
                   </svg>
                 </div>
-                <h2 className="text-lg  font-medium title-font mb-2">CSS avancé</h2>
-                <p className="leading-relaxed text-base">
-                  Fingerstache flexitarian street art 8-bit waist co, subway
-                  tile poke farm.
+                <h2 className="text-lg  font-medium title-font mb-2">
+                  Experience
+                </h2>
+                <p className="leading-relaxed text-base font-bold">
+                  THE rAVe Agency and LAVNCH - Developer and XR Software
+                  Engineer
                 </p>
-
-                <div className="text-center mt-2 leading-none flex justify-between w-full">
-                  <span className=" mr-3 inline-flex items-center leading-none text-sm  py-1 ">
-                    <svg
-                      className=" fill-current w-4 h-4 mr-2 text-blue-500"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 512 512"
-                    >
-                      <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z" />
-                    </svg>
-                    2h 40 min
-                  </span>
-                  <span className=" inline-flex items-center leading-none text-sm">
-                    <svg
-                      width="22"
-                      height="22"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <g fill="none" fillRule="evenodd">
-                        <path fill="#D8D8D8" d="M15.6 17.667h3.5V3h-3.5z" />
-                        <path fill="#667EEA" d="M9.2 6.583v11.08h3.5V6.583z" />
-                        <path fill="#667EEA" d="M2.6 17.667h3.5v-7.334H2.6z" />
-                      </g>
-                    </svg>
-                    Débutant
-                  </span>
+                <p>
+                  As a developer, I assist with all projects regarding web
+                  development, app development, and software engineering. I am
+                  the agency’s lead XR developer.
+                </p>
+                <ul className="list-disc">
+                  <br />
+                  <li>Augmented reality filters for social media </li>
+                  <li>
+                    Augmented reality games, shopping, and promotional
+                    experiences{' '}
+                  </li>
+                  <li>Virtual reality experiences </li>
+                  <li>Mobile and app development</li>
+                  <li>Website code edits and UX/UI improvements</li>
+                </ul>
+              </div>
+            </div>
+            {/* Education */}
+            <div className="xl:w-1/3 md:w-1/2 p-4">
+              <div className="border border-gray-300 p-6 rounded-lg">
+                <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                  >
+                    <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                    <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+                    />
+                  </svg>
                 </div>
+                <h2 className="text-lg  font-medium title-font mb-2">
+                  Education
+                </h2>
+                <p className="leading-relaxed text-base font-bold">
+                  Columbia Engineering, Columbia University in the City of New
+                  York
+                </p>
+                <p className="leading-relaxed text-base">
+                  Professional Certificate in Computer Coding – Full Stack
+                  Development
+                </p>
+                <br />
+                <p className="leading-relaxed text-base font-bold">
+                  The University of North Carolina at Chapel Hill
+                </p>
+                <p className="leading-relaxed text-base">
+                  Master of Arts in Media and Communication – Strategic
+                  Communications Track
+                  <br />
+                  Metaverse Technologies Specialization
+                </p>
+                <p className="leading-relaxed text-base">
+                  Bachelor of Arts degree in Environmental Studies –
+                  Sustainability Concentration
+                </p>
+                <p className="leading-relaxed text-base">
+                  Minor in Advertising and Public Relations from the Hussman
+                  School of Journalism and Media
+                </p>
+                <p className="leading-relaxed text-base">
+                  GPA: 3.96 and MA High Honors
+                  <br />
+                  Graduated 2022
+                </p>
               </div>
             </div>
           </div>
