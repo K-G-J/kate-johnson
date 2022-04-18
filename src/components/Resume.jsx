@@ -51,7 +51,7 @@ export default function Resume() {
                       height="22"
                       xmlns="http://www.w3.org/2000/svg"
                     >
-                      <g fill="none" fill-rule="evenodd">
+                      <g fill="none" fillRule="evenodd">
                         <path
                           fill="#D8D8D8"
                           d="M9.2 6.583v11.08h3.5V6.583zm6.4 11.084h3.5V3h-3.5z"
@@ -95,7 +95,7 @@ export default function Resume() {
                       height="22"
                       xmlns="http://www.w3.org/2000/svg"
                     >
-                      <g fill="none" fill-rule="evenodd">
+                      <g fill="none" fillRule="evenodd">
                         <path
                           fill="#D8D8D8"
                           d="M9.2 6.583v11.08h3.5V6.583zm6.4 11.084h3.5V3h-3.5z"
@@ -143,7 +143,7 @@ export default function Resume() {
                       height="22"
                       xmlns="http://www.w3.org/2000/svg"
                     >
-                      <g fill="none" fill-rule="evenodd">
+                      <g fill="none" fillRule="evenodd">
                         <path fill="#D8D8D8" d="M15.6 17.667h3.5V3h-3.5z" />
                         <path fill="#667EEA" d="M9.2 6.583v11.08h3.5V6.583z" />
                         <path fill="#667EEA" d="M2.6 17.667h3.5v-7.334H2.6z" />
