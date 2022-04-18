@@ -44,7 +44,7 @@ export default function Contact() {
         setSuccessMessage(true)
         setTimeout(() => {
           setSuccessMessage(false)
-        }, 3000)
+        }, 5000)
         setForm({ name: '', email: '', message: '' })
       } else {
         console.log(result.text)
