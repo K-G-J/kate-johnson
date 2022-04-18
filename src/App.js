@@ -9,17 +9,13 @@ import Footer from './components/Footer'
 import About from './components/About'
 
 function App() {
-  const [about, showAbout] = useState(true)
-  const [portfolio, showPortfolio] = useState(false)
-  const [resume, showResume] = useState(false)
-  const [contact, showContact] = useState(false)
+  const [view, setView] = useState({ about: true, portfolio: false, resume: false, contact: false })
+  const {about, portfolio, resume, contact} = view
 
   
   return (
     <>
-      <Nav showPortfolio={showPortfolio} showResume={showResume} showContact={showContact} showAbout={showAbout}
-        portfolio={portfolio} resume={resume} contact={contact} about={about} 
-      />
+      <Nav setView={setView}/>
       {about && <About />}
       {portfolio && <Portfolio /> }
       {resume && <Resume /> }
