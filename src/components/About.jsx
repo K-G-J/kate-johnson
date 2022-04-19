@@ -35,7 +35,7 @@ export default function About() {
               coding and after recieving my master's degree studying metaverse
               technology I became fascinated by Web3 development. I hope you
               enjoy looking through some of my blockchain applications. My smart
-              contracts are available on my GitHub page. Cheers to Web3!
+              contracts are available on my <a href="https://github.com/K-G-J/smart-contracts" target="_blank">GitHub page</a>. Cheers to Web3!
             </p>
           </div>
           <hr className="mt-6" />
