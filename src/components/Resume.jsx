@@ -171,8 +171,6 @@ export default function Resume() {
                 </p>
                 <p className="leading-relaxed text-base">
                   GPA: 3.96 and MA High Honors
-                  <br />
-                  Graduated 2022
                 </p>
               </div>
             </div>
