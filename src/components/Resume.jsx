@@ -57,7 +57,7 @@ export default function Resume() {
                 <br />
                 <ul className="list-disc">
                   <li>
-                    Experienced in Soldity and Javascript for Web3 development
+                    Experienced in Solidity and Javascript for Web3 development
                     and Smart Contract programming
                   </li>
                   <li>
