@@ -47,7 +47,7 @@ module.exports = {
       name: 'Spooky Hollow NFT Markplace',
       description:
         'A fully functional NFT marketplace for minitng, buying, and trading NFTs',
-      link: 'https://vercel.com/k-g-j/spooky-hollow',
+      link: 'https://youtu.be/HQo_A0LOlrg',
       video: 'https://youtu.be/HQo_A0LOlrg',
       image: 'spooky-hollow',
       github: 'https://github.com/K-G-J/spooky-hollow',
