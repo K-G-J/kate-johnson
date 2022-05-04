@@ -51,8 +51,7 @@ export default function Resume() {
                   augmented reality, virtual reality, game development, and
                   programming.
                   <br />
-                  Web3 development for EVM compatible chains using Solidity,
-                  ethers.js, web3.js, and Moralis.io
+                  Web3 development for EVM compatible chains using Solidity, Hardhat, Truffle Suite, ethers.js, web3.js, and Moralis.io
                 </p>
                 <br />
                 <ul className="list-disc">
@@ -61,7 +60,7 @@ export default function Resume() {
                     and Smart Contract programming
                   </li>
                   <li>
-                    Proficient in JavaScript, Ruby, Java, Git, the MERN Stack, SQL, Mongo
+                    Proficient in JavaScript, Ruby, Java, Git, the MERN Stack, SQL, GraphQl, Mongo
                     DB, CSS, HTML, C#, AWS, PHP, and Swift
                   </li>
                   <li>
