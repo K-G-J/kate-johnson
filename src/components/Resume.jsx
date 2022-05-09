@@ -21,7 +21,7 @@ export default function Resume() {
               mobile programming languages. I specialize in blockchain
               development for the Ethereum ecosystem.
             </p>
-            <a href={resume} download="resume" target="_blank">
+            <a href={resume} download={resume} target="_blank">
               <button className="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg mt-6">
                 FULL RESUME
               </button>
