@@ -56,7 +56,7 @@ module.exports = {
       name: 'Dashboard3',
       description:
         'Web3 dashboard to view all user transactions, accounts, NFTs, and send crypto',
-      link: 'https://dashboard3-rho.vercel.app/',
+      link: 'https://youtu.be/SlghW9vYiK8',
       video: 'https://youtu.be/SlghW9vYiK8',
       image: 'dashboard3',
       github: 'https://github.com/K-G-J/Dashboard3',
@@ -73,7 +73,7 @@ module.exports = {
     {
       name: 'Lazy Mint NFTs',
       description: 'Upload and mint NFTs to Rarible without paying any fees',
-      link: 'https://nft-minter-flax.vercel.app',
+      link: 'https://youtu.be/eVfqcp6XUu4',
       video: 'https://youtu.be/eVfqcp6XUu4',
       image: 'lazy-mint',
       github: 'https://github.com/K-G-J/nft-minter',
