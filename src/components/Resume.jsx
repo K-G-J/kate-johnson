@@ -16,10 +16,11 @@ export default function Resume() {
             </h1>
             <p className="lg:w-1/2 w-full leading-relaxed text-base">
               I am a highly self-motivated and hard-working individual who also
-              enjoys teamwork and collaboration. I am an extended reality (XR)
-              developer and well-versed in the full stack of multiple web and
-              mobile programming languages. I specialize in blockchain
-              development for the Ethereum ecosystem.
+              enjoys teamwork and collaboration. I am a blockchain software
+              engineer and well-versed in the full stack of multiple Web2, Web3,
+              and mobile programming languages. I specialize in blockchain
+              engineering and Web3 development for evm-compatible chains using
+              Solidity, Foundry, and Hardhat.
             </p>
             <a href={resume} download={resume} target="_blank">
               <button className="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg mt-6">
@@ -47,21 +48,23 @@ export default function Resume() {
                 </div>
                 <h2 className="text-lg  font-medium title-font mb-2">Skills</h2>
                 <p className="leading-relaxed text-base">
-                  Full stack web development, mobile application development,
-                  augmented reality, virtual reality, game development, and
-                  programming.
+                  Full stack web development, blockchain software engineering,
+                  mobile application development, augmented reality, virtual
+                  reality, game development, and programming.
                   <br />
-                  Web3 development for EVM compatible chains using Solidity, Hardhat, Truffle Suite, ethers.js, web3.js, and Moralis.io
+                  Web3 development using Solidity, Foundry, Hardhat, Truffle
+                  Suite, ethers.js, web3.js, and Moralis.io
                 </p>
                 <br />
                 <ul className="list-disc">
                   <li>
-                    Experienced in Solidity and Javascript for Web3 development
-                    and Smart Contract programming
+                    Highly experienced in Solidity, Typescript, and Javascript
+                    for Web3 development and Smart Contract programming
                   </li>
                   <li>
-                    Proficient in JavaScript, TypeScript, Ruby, Java, Git, the MERN Stack, SQL, GraphQl, Mongo
-                    DB, CSS, HTML, C#, AWS, PHP, and Swift
+                    Proficient in Solidity, JavaScript, TypeScript, Ruby, Java,
+                    Git, the MERN Stack, SQL, GraphQl, Mongo DB, CSS, HTML, C#,
+                    AWS, PHP, and Swift
                   </li>
                   <li>
                     Heavily experienced and trained in SparkAR, Lens Studio,
@@ -97,12 +100,25 @@ export default function Resume() {
                   Experience
                 </h2>
                 <p className="leading-relaxed text-base font-bold">
+                  Popcorn Network
+                </p>
+                <p>Blockchain and Web3 Software Engineer</p>
+                <ul className="list-disc">
+                  <br />
+                  <li>Smart contract programing</li>
+                  <li>Security auditing</li>
+                  <lv>Robust smart contract testing</lv>
+                  <li>Web3 front-end integrations</li>
+                  <li>Defi research and development</li>
+                </ul>
+                <br />
+                <p className="leading-relaxed text-base font-bold">
                   THE rAVe Agency and LAVNCH - Developer and XR Software
                   Engineer
                 </p>
                 <p>
-                  As a developer, I assist with all projects regarding web
-                  development, app development, and software engineering. I am
+                  As a developer, I assisted with all projects regarding web
+                  development, app development, and software engineering. I was
                   the agency’s lead XR developer.
                 </p>
                 <ul className="list-disc">
