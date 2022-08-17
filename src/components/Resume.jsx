@@ -107,7 +107,7 @@ export default function Resume() {
                   <br />
                   <li>Smart contract programing</li>
                   <li>Security auditing</li>
-                  <lv>Robust smart contract testing</lv>
+                  <li>Robust smart contract testing</li>
                   <li>Web3 front-end integrations</li>
                   <li>Defi research and development</li>
                 </ul>
