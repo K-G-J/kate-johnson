@@ -19,8 +19,9 @@ export default function Resume() {
               enjoys teamwork and collaboration. I am a blockchain software
               engineer and well-versed in the full stack of multiple Web2, Web3,
               and mobile programming languages. I specialize in blockchain
-              engineering and Web3 development for evm-compatible chains using
-              Solidity, Foundry, and Hardhat.
+              engineering and Web3 development for EVM-compatible chains using
+              Solidity, Foundry, and Hardhat. Coding is my passion and I feel
+              truly lucky to be able to do what I love every day.
             </p>
             <a href={resume} download={resume} target="_blank">
               <button className="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg mt-6">
@@ -48,7 +49,7 @@ export default function Resume() {
                 </div>
                 <h2 className="text-lg  font-medium title-font mb-2">Skills</h2>
                 <p className="leading-relaxed text-base">
-                  Full stack web development, blockchain software engineering,
+                  Full-stack development, blockchain software engineering,
                   mobile application development, augmented reality, virtual
                   reality, game development, and programming.
                   <br />
@@ -58,12 +59,12 @@ export default function Resume() {
                 <br />
                 <ul className="list-disc">
                   <li>
-                    Highly experienced in Solidity, Typescript, and Javascript
+                    Highly experienced in Solidity, Typescript, and JavaScript
                     for Web3 development and Smart Contract programming
                   </li>
                   <li>
                     Proficient in Solidity, JavaScript, TypeScript, Ruby, Java,
-                    Git, the MERN Stack, SQL, GraphQl, Mongo DB, CSS, HTML, C#,
+                    Git, the MERN Stack, SQL, GraphQL, Mongo DB, CSS, HTML, C#,
                     AWS, PHP, and Swift
                   </li>
                   <li>
@@ -108,7 +109,7 @@ export default function Resume() {
                   <li>Smart contract programing</li>
                   <li>Security auditing</li>
                   <li>Robust smart contract testing</li>
-                  <li>Web3 front-end integrations</li>
+                  <li>Web3 development and front-end integrations</li>
                   <li>Defi research and development</li>
                 </ul>
                 <br />
