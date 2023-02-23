@@ -37,7 +37,7 @@ export default function About() {
               enjoy looking through some of my blockchain applications. My smart
               contracts are available on my <a href="https://github.com/K-G-J/smart-contracts" target="_blank">GitHub page</a>. Cheers to Web3!
             </p>
-            <p className="mt-2 text-gray-600"><a href="https://youtu.be/gzaM00JsGhQ" target="_blank">Click here to checkout my latest project 😄</a></p>
+            <p className="mt-2 text-gray-600"><a href="https://youtu.be/Dhje-1qkttQ" target="_blank">Click here to checkout my latest project 😄</a></p>
           </div>
           <hr className="mt-6" />
           {/* <div className="flex  bg-gray-50 ">
