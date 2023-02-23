@@ -53,23 +53,27 @@ export default function Resume() {
                   mobile application development, augmented reality, virtual
                   reality, game development, and programming.
                   <br />
-                  Web3 development using Solidity, Foundry, Hardhat, Truffle
-                  Suite, ethers.js, web3.js, and Moralis.io
+                  Web3 development using Solidity, Vyper, Foundry, Hardhat,
+                  Truffle Suite, ethers.js, web3.js, and Moralis.io
                 </p>
                 <br />
                 <ul className="list-disc">
                   <li>
-                    Highly experienced in Solidity, Typescript, and JavaScript
-                    for Web3 development and Smart Contract programming
+                    Highly experienced in Solidity, Vyper, Typescript, Python,
+                    and JavaScript for Web3 development and Smart Contract
+                    programming
                   </li>
                   <li>
-                    Proficient in Solidity, JavaScript, TypeScript, Ruby, Java,
-                    Git, the MERN Stack, SQL, GraphQL, Mongo DB, CSS, HTML, C#,
-                    AWS, PHP, and Swift
+                    Skilled in Node.js, React.js, Next.js, Django, Brownie
+                  </li>
+                  <li>
+                    Proficient in Solidity, Vyper, JavaScript, TypeScript, Ruby,
+                    Python, Git, the MERN Stack, SQL, SQLite, MySQL, GraphQL,
+                    Mongo DB, CSS, HTML, C#, AWS, and Swift
                   </li>
                   <li>
                     Heavily experienced and trained in SparkAR, Lens Studio,
-                    Unity, Unreal, Zapworks, Blender, Adobe Creative Suite,
+                    Unity, Unreal Engine, Zapworks, Blender, Adobe Creative Suite,
                     WordPress, Canva, UX and UI design
                   </li>
                   <li>
