@@ -29,7 +29,8 @@ module.exports = {
     },
     {
       name: 'Decentralized Twitter Clone',
-      description: 'Mint profile NFTs, post tweets, ETH tip tweets of other users',
+      description:
+        'Mint profile NFTs, post tweets, ETH tip tweets of other users',
       link: 'https://youtu.be/iy3TrL8yChc',
       video: 'https://youtu.be/iy3TrL8yChc',
       image: 'twitter-clone',
@@ -77,6 +78,31 @@ module.exports = {
       video: 'https://youtu.be/eVfqcp6XUu4',
       image: 'lazy-mint',
       github: 'https://github.com/K-G-J/nft-minter',
+    },
+    {
+      name: 'Crowdfund Solidity Hardhat Project',
+      description: 'A Solidity smart contract project with tests and scripts',
+      link: 'https://youtu.be/Dhje-1qkttQ',
+      video: 'https://youtu.be/Dhje-1qkttQ',
+      image: 'crowdfund',
+      github: 'https://github.com/K-G-J/metacrafters-crowdfund',
+    },
+    {
+      name: 'Market Sentiment dApp',
+      description: 'Vote on your confidence in tokens to watch bobbles change',
+      link: 'https://youtu.be/RCr-lFwChp8',
+      video: 'https://youtu.be/RCr-lFwChp8',
+      image: 'market-sentiment',
+      github: 'https://github.com/K-G-J/MarketSentiment-Dapp',
+    },
+    {
+      name: 'Secret Sauce',
+      description:
+        'An app to share secret recipes with whitelisted addresses and upload images to ipfs',
+      link: 'https://youtu.be/gzaM00JsGhQ',
+      video: 'https://youtu.be/gzaM00JsGhQ',
+      image: 'secret-recipe',
+      github: 'https://github.com/K-G-J/secret-sauce',
     },
   ],
 }
