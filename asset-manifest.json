@@ -1,7 +1,10 @@
 {
   "files": {
-    "main.css": "/kate3.0/static/css/main.5db2e209.css",
-    "main.js": "/kate3.0/static/js/main.422760d1.js",
+    "main.css": "/kate3.0/static/css/main.88300934.css",
+    "main.js": "/kate3.0/static/js/main.9542480e.js",
+    "static/media/crowdfund.jpg": "/kate3.0/static/media/crowdfund.f59170f77fc47318b95a.jpg",
+    "static/media/market-sentiment.jpg": "/kate3.0/static/media/market-sentiment.dd7797adb8c4f6f86646.jpg",
+    "static/media/secret-recipe.jpg": "/kate3.0/static/media/secret-recipe.fc028933134adb7c2546.jpg",
     "static/media/banner.jpg": "/kate3.0/static/media/banner.a2a244a07db17546792d.jpg",
     "static/media/full-mint.jpg": "/kate3.0/static/media/full-mint.8ee81c25772ca4add982.jpg",
     "static/media/nft-y.jpg": "/kate3.0/static/media/nft-y.9848f99d7df50ced95ad.jpg",
@@ -15,11 +18,11 @@
     "static/media/twitter-clone.jpg": "/kate3.0/static/media/twitter-clone.106e59ac54b2e312fde1.jpg",
     "static/media/dashboard3.jpg": "/kate3.0/static/media/dashboard3.1e0e13a24095b08ea504.jpg",
     "index.html": "/kate3.0/index.html",
-    "main.5db2e209.css.map": "/kate3.0/static/css/main.5db2e209.css.map",
-    "main.422760d1.js.map": "/kate3.0/static/js/main.422760d1.js.map"
+    "main.88300934.css.map": "/kate3.0/static/css/main.88300934.css.map",
+    "main.9542480e.js.map": "/kate3.0/static/js/main.9542480e.js.map"
   },
   "entrypoints": [
-    "static/css/main.5db2e209.css",
-    "static/js/main.422760d1.js"
+    "static/css/main.88300934.css",
+    "static/js/main.9542480e.js"
   ]
 }
