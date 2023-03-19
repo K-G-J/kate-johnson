@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kate3.0/static/css/main.88300934.css",
-    "main.js": "/kate3.0/static/js/main.dddf305b.js",
+    "main.js": "/kate3.0/static/js/main.cc9804b3.js",
     "static/media/crowdfund.jpg": "/kate3.0/static/media/crowdfund.f59170f77fc47318b95a.jpg",
     "static/media/market-sentiment.jpg": "/kate3.0/static/media/market-sentiment.dd7797adb8c4f6f86646.jpg",
     "static/media/secret-recipe.jpg": "/kate3.0/static/media/secret-recipe.fc028933134adb7c2546.jpg",
@@ -19,10 +19,10 @@
     "static/media/dashboard3.jpg": "/kate3.0/static/media/dashboard3.1e0e13a24095b08ea504.jpg",
     "index.html": "/kate3.0/index.html",
     "main.88300934.css.map": "/kate3.0/static/css/main.88300934.css.map",
-    "main.dddf305b.js.map": "/kate3.0/static/js/main.dddf305b.js.map"
+    "main.cc9804b3.js.map": "/kate3.0/static/js/main.cc9804b3.js.map"
   },
   "entrypoints": [
     "static/css/main.88300934.css",
-    "static/js/main.dddf305b.js"
+    "static/js/main.cc9804b3.js"
   ]
 }
