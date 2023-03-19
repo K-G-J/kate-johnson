@@ -19,9 +19,9 @@ export default function Resume() {
               enjoys teamwork and collaboration. I am a blockchain software
               engineer and well-versed in the full stack of multiple Web2, Web3,
               and mobile programming languages. I specialize in blockchain
-              engineering and Web3 development for EVM-compatible chains using
-              Solidity, Foundry, and Hardhat. Coding is my passion and I feel
-              truly lucky to be able to do what I love every day.
+              engineering and Web3 development using TypeScript, JavaScript,
+              Python, Solidity, and Vyper. Coding is my passion and I feel truly
+              lucky to be able to do what I love every day.
             </p>
             <a href={resume} download={resume} target="_blank">
               <button className="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg mt-6">
@@ -59,6 +59,10 @@ export default function Resume() {
                 <br />
                 <ul className="list-disc">
                   <li>
+                    Certified in full-stack development for TypeScript,
+                    JavaScript, and Python
+                  </li>
+                  <li>
                     Highly experienced in Solidity, Vyper, Typescript, Python,
                     and JavaScript for Web3 development and Smart Contract
                     programming
@@ -68,13 +72,13 @@ export default function Resume() {
                   </li>
                   <li>
                     Proficient in Solidity, Vyper, JavaScript, TypeScript, Ruby,
-                    Python, Git, the MERN Stack, SQL, SQLite, MySQL, GraphQL,
-                    Mongo DB, CSS, HTML, C#, AWS, and Swift
+                    Python, Git, the MERN Stack, SQL, SQLite, MySQL, PostgreSQL,
+                    GraphQL, MongoDB, CSS, HTML, C#, AWS, and Swift
                   </li>
                   <li>
                     Heavily experienced and trained in SparkAR, Lens Studio,
-                    Unity, Unreal Engine, Zapworks, Blender, Adobe Creative Suite,
-                    WordPress, Canva, UX and UI design
+                    Unity, Unreal Engine, Zapworks, Blender, Adobe Creative
+                    Suite, WordPress, Canva, UX and UI design
                   </li>
                   <li>
                     Experienced using Microsoft Windows, G Suite, iOS and macOS
