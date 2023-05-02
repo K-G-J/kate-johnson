@@ -114,12 +114,26 @@ export default function Resume() {
                 <p>Blockchain and Web3 Software Engineer</p>
                 <ul className="list-disc">
                   <br />
-                  <li>Smart contract programing</li>
-                  <li>Security auditing</li>
-                  <li>Robust smart contract testing</li>
-                  <li>Financial technology development</li>
-                  <li>Web3 development and front-end integrations</li>
-                  <li>DeFi research and development</li>
+                  <li>Full stack software engineering</li>
+                  <li>
+                    Wrote smart contracts for decentralized finance and
+                    governance
+                  </li>
+                  <li>Led team in latest smart contract system deployment</li>
+                  <li>
+                    Audited smart contracts and participated in comprehensive
+                    code reviews
+                  </li>
+                  <li>
+                    Wrote robust smart contract tests and unit, integration, and
+                    staging tests for full stack code
+                  </li>
+                  <li>Engineered and developed fintech products</li>
+                  <li>Designed integration of Web 3 front end</li>
+                  <li>
+                    Participated in decentralized finance research and
+                    development
+                  </li>
                 </ul>
                 <br />
                 <p className="leading-relaxed text-base font-bold">
@@ -133,14 +147,18 @@ export default function Resume() {
                 </p>
                 <ul className="list-disc">
                   <br />
-                  <li>Augmented reality filters for social media </li>
                   <li>
-                    Augmented reality games, shopping, and promotional
-                    experiences{' '}
+                    Wrote website code edits and implemented UX/UI improvements
                   </li>
-                  <li>Virtual reality experiences </li>
-                  <li>Mobile and app development</li>
-                  <li>Website code edits and UX/UI improvements</li>
+                  <li>
+                    Engineered augmented reality filters for social media{' '}
+                  </li>
+                  <li>
+                    Engineered augmented reality games, shopping, and
+                    promotional experiences
+                  </li>
+                  <li>Engineered virtual reality experiences </li>
+                  <li>Assisted in mobile app development</li>
                 </ul>
               </div>
             </div>
