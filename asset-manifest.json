@@ -1,28 +1,28 @@
 {
   "files": {
     "main.css": "/kate3.0/static/css/main.88300934.css",
-    "main.js": "/kate3.0/static/js/main.5f012de8.js",
+    "main.js": "/kate3.0/static/js/main.022eeb54.js",
     "static/media/crowdfund.jpg": "/kate3.0/static/media/crowdfund.f59170f77fc47318b95a.jpg",
     "static/media/market-sentiment.jpg": "/kate3.0/static/media/market-sentiment.dd7797adb8c4f6f86646.jpg",
     "static/media/secret-recipe.jpg": "/kate3.0/static/media/secret-recipe.fc028933134adb7c2546.jpg",
     "static/media/banner.jpg": "/kate3.0/static/media/banner.a2a244a07db17546792d.jpg",
     "static/media/full-mint.jpg": "/kate3.0/static/media/full-mint.8ee81c25772ca4add982.jpg",
     "static/media/nft-y.jpg": "/kate3.0/static/media/nft-y.9848f99d7df50ced95ad.jpg",
-    "static/media/resume.pdf": "/kate3.0/static/media/resume.04c39816b02e60f97cbe.pdf",
     "static/media/spooky-hollow.jpg": "/kate3.0/static/media/spooky-hollow.770778927eec96dd44a6.jpg",
     "static/media/krypt.jpg": "/kate3.0/static/media/krypt.e88420556061eea49338.jpg",
     "static/media/crypto-calculator.jpg": "/kate3.0/static/media/crypto-calculator.93cebfc3abd5443d785c.jpg",
     "static/media/lazy-mint.jpg": "/kate3.0/static/media/lazy-mint.15a3ee7e6cd6962fb6f8.jpg",
+    "static/media/resume.pdf": "/kate3.0/static/media/resume.e8463adeabbc9c4b428a.pdf",
     "static/media/cmc-clone.jpg": "/kate3.0/static/media/cmc-clone.0124ceb4e3586ab26e69.jpg",
     "static/media/headshot.jpeg": "/kate3.0/static/media/headshot.ffd76e9128d871596bb6.jpeg",
     "static/media/twitter-clone.jpg": "/kate3.0/static/media/twitter-clone.106e59ac54b2e312fde1.jpg",
     "static/media/dashboard3.jpg": "/kate3.0/static/media/dashboard3.1e0e13a24095b08ea504.jpg",
     "index.html": "/kate3.0/index.html",
     "main.88300934.css.map": "/kate3.0/static/css/main.88300934.css.map",
-    "main.5f012de8.js.map": "/kate3.0/static/js/main.5f012de8.js.map"
+    "main.022eeb54.js.map": "/kate3.0/static/js/main.022eeb54.js.map"
   },
   "entrypoints": [
     "static/css/main.88300934.css",
-    "static/js/main.5f012de8.js"
+    "static/js/main.022eeb54.js"
   ]
 }
