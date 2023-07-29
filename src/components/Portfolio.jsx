@@ -11,8 +11,8 @@ export default function Portfolio() {
     window.open(video, '_blank')
   }
   return (
-    <section className="text-gray-600 body-font">
-      <div className="container px-5 py-24 mx-auto">
+    <section className="text-gray-600 body-font bg-gray-200">
+      <div className="container px-5 py-24 mx-auto bg-gray-200">
         <div className="flex flex-wrap -m-4">
           {portfolio.map((item, i) => (
             <div className="p-4 md:w-1/3" key={i}>

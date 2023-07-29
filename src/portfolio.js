@@ -3,7 +3,7 @@ module.exports = {
     {
       name: 'CoinMarketCap Blockchain Clone',
       description:
-        'A Web3 clone of CoinMarketCap using blockchain technology and Solidity contract backend',
+        'A follow top digital assets and preview trades using blockchain technology and Solidity contract backend',
       link: 'https://youtu.be/13SdluC5_n0',
       video: 'https://youtu.be/13SdluC5_n0',
       image: 'cmc-clone',
@@ -11,7 +11,7 @@ module.exports = {
     },
 
     {
-      name: 'Cryptocurrency Portfolio Calculator',
+      name: 'Digital Asset Portfolio Calculator',
       description: 'CoinGeko API and custom backend price calculation formula',
       link: 'https://crypto-dex.herokuapp.com/',
       video: 'https://youtu.be/cKy3Gu-WAb4',
@@ -20,7 +20,7 @@ module.exports = {
     },
 
     {
-      name: 'Full Mint Website',
+      name: 'Full Stack Digital Asset Minting Website',
       description: 'Smart contract powered site for minting an NFT collection',
       link: 'https://k-g-j.github.io/full-mint-website-front-end/',
       video: 'https://youtu.be/NHhGqVrhNQQ',
@@ -28,18 +28,18 @@ module.exports = {
       github: 'https://github.com/K-G-J/full-mint-website-front-end',
     },
     {
-      name: 'Decentralized Twitter Clone',
+      name: 'Blockchain Twitter Clone',
       description:
-        'Mint profile NFTs, post tweets, ETH tip tweets of other users',
+        'Mint profile NFTs, post tweets, tip tweets of other users with cryptocurrency',
       link: 'https://youtu.be/iy3TrL8yChc',
       video: 'https://youtu.be/iy3TrL8yChc',
       image: 'twitter-clone',
       github: 'https://github.com/K-G-J/twitter-blockchain-clone',
     },
     {
-      name: 'Spooky Hollow NFT Markplace',
+      name: 'Spooky Hollow Augmented Reality Markplace',
       description:
-        'A fully functional NFT marketplace for minitng, buying, and trading NFTs',
+        'A fully functional NFT marketplace for minitng, buying, and trading augmented reality NFTs',
       link: 'https://youtu.be/HQo_A0LOlrg',
       video: 'https://youtu.be/HQo_A0LOlrg',
       image: 'spooky-hollow',
@@ -47,16 +47,16 @@ module.exports = {
     },
     {
       name: 'Krypt',
-      description: 'A beautiful app for sending crypto and a fun GIF message',
+      description: 'A beautiful and fun app for buying and sending crypto and a fun GIF message',
       link: 'https://krypt-gif.com/',
       video: 'https://youtu.be/gPebC7jLgRE',
       image: 'krypt',
       github: 'https://github.com/K-G-J/krypt',
     },
     {
-      name: 'Dashboard3',
+      name: 'Trading Portfolio Dashboard',
       description:
-        'Web3 dashboard to view all user transactions, accounts, NFTs, and send crypto',
+        'Dashboard to view all user transactions, accounts, NFTs, and send crypto',
       link: 'https://youtu.be/SlghW9vYiK8',
       video: 'https://youtu.be/SlghW9vYiK8',
       image: 'dashboard3',
@@ -65,7 +65,7 @@ module.exports = {
     {
       name: 'NFT-y',
       description:
-        'See user NFTs, search blockchain NFTs, add favorites, live chat with other users',
+        'See user digital assets, search blockchain NFTs, add favorites, live chat with other users',
       link: 'https://nft-y.herokuapp.com/',
       video: 'https://youtu.be/oiJZGTgtXdU',
       image: 'nft-y',
@@ -81,15 +81,15 @@ module.exports = {
     },
     {
       name: 'Crowdfund Solidity Hardhat Project',
-      description: 'A Solidity smart contract project with tests and scripts',
+      description: 'A Solidity smart contract project to hold and raise money for crowdfounding, accompanied by tests and scripts',
       link: 'https://youtu.be/Dhje-1qkttQ',
       video: 'https://youtu.be/Dhje-1qkttQ',
       image: 'crowdfund',
       github: 'https://github.com/K-G-J/metacrafters-crowdfund',
     },
     {
-      name: 'Market Sentiment dApp',
-      description: 'Vote on your confidence in tokens to watch bobbles change',
+      name: 'Market Sentiment App',
+      description: 'Vote on your confidence in various stocks and digital assets to watch bobbles change',
       link: 'https://youtu.be/RCr-lFwChp8',
       video: 'https://youtu.be/RCr-lFwChp8',
       image: 'market-sentiment',

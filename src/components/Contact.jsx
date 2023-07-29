@@ -56,7 +56,7 @@ export default function Contact() {
   }
 
   return (
-    <section className="w-full text-gray-900 py-36 bg-center bg-gradient-to-r from-green-300 via-blue-500 to-purple-600">
+    <section className="w-full text-gray-900 py-36 bg-center bg-gradient-to-r from-cyan-500 to-blue-500 ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-4 flex items-center justify-center">
         <div className="lg:w-3/6 lg:pr-0 pr-0">
           <h1 className="font-medium text-5xl text-white pl-4">

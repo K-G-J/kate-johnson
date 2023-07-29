@@ -3,9 +3,9 @@ import { useEffect } from 'react'
 export default function About() {
   useEffect(() => {
     document.title = 'About Me'
-  }, []);
+  }, [])
   return (
-    <div className="h-screen bg-gradient-to-r from-green-300 via-blue-500 to-purple-600  dark:bg-gray-800   flex flex-wrap items-center  justify-center  ">
+    <div className="h-screen bg-gradient-to-r from-cyan-500 to-blue-500   dark:bg-gray-800   flex flex-wrap items-center  justify-center  ">
       <div className="container lg:w-2/6 xl:w-2/7 sm:w-full md:w-2/3    bg-white  shadow-lg    transform   duration-200 easy-in-out">
         <div className=" h-32 overflow-hidden">
           <img
@@ -21,23 +21,37 @@ export default function About() {
             alt=""
           />
         </div>
-        <div className=" ">
-          <div className="text-center px-14">
+        <div className="">
+          <div className="text-center mx-14 my-14">
             <h2 className="text-gray-800 text-3xl font-bold">Kate Johnson</h2>
             <a href="https://github.com/K-G-J" target="_blank">
               <p className="text-gray-400 mt-2">@k-g-j</p>
             </a>
             <p className="mt-2 text-gray-600 font-bold">
-              Web3 and Blockchain Developer
+              Passionate Software Engineer
             </p>
-            <p className="mt-2 text-gray-600">
-              Hi, my name is Kate and I have a passion for 1's and 0's. I love
-              coding and after recieving my master's degree studying metaverse
-              technology I became fascinated by Web3 development. I hope you
-              enjoy looking through some of my blockchain applications. My smart
-              contracts are available on my <a href="https://github.com/K-G-J/smart-contracts" target="_blank">GitHub page</a>. Cheers to Web3!
-            </p>
-            <p className="mt-2 text-gray-600"><a href="https://youtu.be/Dhje-1qkttQ" target="_blank">Click here to checkout my latest project 😄</a></p>
+            <div className="px-14">
+              <p className="mt-2 text-gray-600">
+                I'm Kate, a dedicated software engineer with a love for
+                all things coding. Coding isn't just a profession for me, it's
+                my life's passion. I revel in the complex puzzle-solving and
+                creative aspects of it, and love exploring the potential of
+                emerging technologies. Beyond my professional experiences, I've
+                acquired a Professional Software Engineering Certification from
+                Columbia University and a Master's Degree in Emerging Technology
+                Research from The University of North Carolina at Chapel Hill.
+                I'm currently expanding my academic repertoire by pursuing a
+                Master's in Computer Science at Northeastern University.
+                Regardless of where I am or what I'm working on, my coding
+                passion remains at the heart of all my endeavors. Always eager
+                to tackle new challenges and connect with like-minded tech
+                enthusiasts, feel see what I have been working on lately on my{' '}
+                <a href="https://github.com/K-G-J" target="_blank">
+                  GitHub!
+                </a>
+              </p>
+              {/* <p className="mt-2 text-gray-600"><a href="https://youtu.be/Dhje-1qkttQ" target="_blank">Click here to checkout my latest project 😄</a></p> */}
+            </div>
           </div>
           <hr className="mt-6" />
           {/* <div className="flex  bg-gray-50 ">

@@ -1,8 +1,8 @@
 {
-  "name": "kate3",
+  "name": "kate-johnson",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://k-g-j.github.io/kate3.0",
+  "homepage": "http://k-g-j.github.io/kate-johnson",
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@headlessui/react": "^1.5.0",
