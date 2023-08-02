@@ -17,7 +17,7 @@ export default function Resume() {
             <p className="lg:w-1/2 w-full leading-relaxed text-base">
               I am a software engineer with several years of experience in
               developing, troubleshooting, and maintaining software
-              applications. My expertise is in blockchain and aglorithmic
+              applications. My expertise is in digital assets and aglorithmic
               trading. However, my extensive knowledge spans the software
               development lifecycle, various programming languages, and database
               systems. With a proven track record in developing complex software
