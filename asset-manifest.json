@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kate-johnson/static/css/main.6f00b0ce.css",
-    "main.js": "/kate-johnson/static/js/main.b8f2ae17.js",
+    "main.js": "/kate-johnson/static/js/main.c06a7c4d.js",
     "static/media/crowdfund.jpg": "/kate-johnson/static/media/crowdfund.f59170f77fc47318b95a.jpg",
     "static/media/market-sentiment.jpg": "/kate-johnson/static/media/market-sentiment.dd7797adb8c4f6f86646.jpg",
     "static/media/secret-recipe.jpg": "/kate-johnson/static/media/secret-recipe.fc028933134adb7c2546.jpg",
@@ -19,10 +19,10 @@
     "static/media/dashboard3.jpg": "/kate-johnson/static/media/dashboard3.1e0e13a24095b08ea504.jpg",
     "index.html": "/kate-johnson/index.html",
     "main.6f00b0ce.css.map": "/kate-johnson/static/css/main.6f00b0ce.css.map",
-    "main.b8f2ae17.js.map": "/kate-johnson/static/js/main.b8f2ae17.js.map"
+    "main.c06a7c4d.js.map": "/kate-johnson/static/js/main.c06a7c4d.js.map"
   },
   "entrypoints": [
     "static/css/main.6f00b0ce.css",
-    "static/js/main.b8f2ae17.js"
+    "static/js/main.c06a7c4d.js"
   ]
 }
