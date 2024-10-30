@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kate-johnson/static/css/main.6f00b0ce.css",
-    "main.js": "/kate-johnson/static/js/main.c06a7c4d.js",
+    "main.css": "/kate-johnson/static/css/main.10259487.css",
+    "main.js": "/kate-johnson/static/js/main.8e9fbb95.js",
     "static/media/crowdfund.jpg": "/kate-johnson/static/media/crowdfund.f59170f77fc47318b95a.jpg",
     "static/media/market-sentiment.jpg": "/kate-johnson/static/media/market-sentiment.dd7797adb8c4f6f86646.jpg",
     "static/media/secret-recipe.jpg": "/kate-johnson/static/media/secret-recipe.fc028933134adb7c2546.jpg",
@@ -11,18 +11,18 @@
     "static/media/spooky-hollow.jpg": "/kate-johnson/static/media/spooky-hollow.770778927eec96dd44a6.jpg",
     "static/media/krypt.jpg": "/kate-johnson/static/media/krypt.e88420556061eea49338.jpg",
     "static/media/crypto-calculator.jpg": "/kate-johnson/static/media/crypto-calculator.93cebfc3abd5443d785c.jpg",
-    "static/media/resume.pdf": "/kate-johnson/static/media/resume.1a153bb67cfdff6ba464.pdf",
     "static/media/lazy-mint.jpg": "/kate-johnson/static/media/lazy-mint.15a3ee7e6cd6962fb6f8.jpg",
+    "static/media/resume.pdf": "/kate-johnson/static/media/resume.a2bc45b63b205e9880d4.pdf",
     "static/media/cmc-clone.jpg": "/kate-johnson/static/media/cmc-clone.0124ceb4e3586ab26e69.jpg",
     "static/media/headshot.jpeg": "/kate-johnson/static/media/headshot.ffd76e9128d871596bb6.jpeg",
     "static/media/twitter-clone.jpg": "/kate-johnson/static/media/twitter-clone.106e59ac54b2e312fde1.jpg",
     "static/media/dashboard3.jpg": "/kate-johnson/static/media/dashboard3.1e0e13a24095b08ea504.jpg",
     "index.html": "/kate-johnson/index.html",
-    "main.6f00b0ce.css.map": "/kate-johnson/static/css/main.6f00b0ce.css.map",
-    "main.c06a7c4d.js.map": "/kate-johnson/static/js/main.c06a7c4d.js.map"
+    "main.10259487.css.map": "/kate-johnson/static/css/main.10259487.css.map",
+    "main.8e9fbb95.js.map": "/kate-johnson/static/js/main.8e9fbb95.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f00b0ce.css",
-    "static/js/main.c06a7c4d.js"
+    "static/css/main.10259487.css",
+    "static/js/main.8e9fbb95.js"
   ]
 }
